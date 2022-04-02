@@ -1,0 +1,46 @@
+/**
+* Feel free to change these breakpoints bellow to fit your project design
+* If you are using a theme, make sure to match same breakpoints from your theme setup
+*/
+.home-company-container .slide-content-left {
+  margin-left: 100px;
+}
+
+.home-hero-container--text {
+  position: absolute;
+  top: 29%;
+  z-index: 2;
+  right: 13%;
+}
+.home-hero-container--text p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.home-hero-container--text p:nth-child(1) {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #fec303;
+  margin-bottom: 39px;
+}
+.home-hero-container--text p:nth-child(2) {
+  font-size: 60px;
+  color: #ffffff;
+}
+.home-hero-container--text p:nth-child(2), .home-hero-container--text p:nth-child(3) {
+  font-family: "WORK SANS";
+  font-size: 86px;
+  color: #fec303;
+}
+.home-hero-container--text p:nth-child(4) {
+  font-family: "WORK SANS";
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 73px;
+}
+
+.home-team-container--picture:hover {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9icmVha3BvaW50cy5zY3NzIiwicGFnZXMvaG9tZS9jb21wYW55LnNjc3MiLCJwYWdlcy9ob21lL2hlcm8uc2NzcyIsImdsb2JhbC90eXBvZ3JhcGh5LnNjc3MiLCJnbG9iYWwvY29sb3JzLnNjc3MiLCJwYWdlcy9ob21lL3RlYW0uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQ0VRO0VBQ0k7OztBQ0RKO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBOztBQUNBO0VBQ0ksYUNYWDtFRFlXO0VBQ0EsT0VYWDtFRllXOztBQUVKO0VBQ0k7RUFDQSxPRWxCWjs7QUZvQlE7RUFFSSxhQ3JCUjtFRHNCUTtFQUNBLE9FdEJYOztBRndCTztFQUNJLGFDMUJSO0VEMkJRO0VBQ0EsT0U3Qlo7RUY4Qlk7OztBRzVCWjtFQUNJIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+
+/*# sourceMappingURL=style.css.map */

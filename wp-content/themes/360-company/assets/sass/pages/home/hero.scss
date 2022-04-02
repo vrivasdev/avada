@@ -1,0 +1,36 @@
+.home {
+    &-hero-container {
+        &--text { 
+            position: absolute;
+            top: 29%; 
+            z-index: 2;
+            right: 13%;
+            p {
+                margin-top: 0px;
+                margin-bottom: 0px;
+                &:nth-child(1) {
+                    font-family: $roboto;
+                    font-size: 16px;
+                    color: $yellow;
+                    margin-bottom: 39px;
+                }
+                &:nth-child(2) {
+                    font-size: 60px;
+                    color: $white;
+                }
+                &:nth-child(2),
+                &:nth-child(3){
+                    font-family: $work-sans;
+                    font-size: 86px;
+                    color: $yellow;
+                } 
+                &:nth-child(4) {
+                    font-family: $work-sans;
+                    font-size: 20px;
+                    color: $white;
+                    margin-top: 73px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+.home-company-container .slide-content-left{margin-left:100px}
+.home-hero-container--text{position:absolute;top:29%;z-index:2;right:13%}
+.home-hero-container--text p{margin-top:0;margin-bottom:0}
+.home-hero-container--text p:nth-child(1){font-family:"Roboto";font-size:16px;color:#fec303;margin-bottom:39px}
+.home-hero-container--text p:nth-child(2){font-size:60px;color:#fff}
+.home-hero-container--text p:nth-child(2),.home-hero-container--text p:nth-child(3){font-family:"WORK SANS";font-size:86px;color:#fec303}
+.home-hero-container--text p:nth-child(4){font-family:"WORK SANS";font-size:20px;color:#fff;margin-top:73px}
+.home-team-container--picture:hover{opacity:.5}
