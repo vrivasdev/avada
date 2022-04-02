@@ -2,12 +2,15 @@
     &-hero-container {
         &--text { 
             position: absolute;
-            top: 29%; 
+            top: 18%;
             z-index: 2;
             right: 13%;
+            border-left: 2px solid #fec303;
+            padding-left: 40px;
             p {
                 margin-top: 0px;
                 margin-bottom: 0px;
+                font-family: $work-sans;
                 &:nth-child(1) {
                     font-family: $roboto;
                     font-size: 16px;
@@ -17,19 +20,30 @@
                 &:nth-child(2) {
                     font-size: 60px;
                     color: $white;
+                    font-weight: 300;
                 }
-                &:nth-child(2),
-                &:nth-child(3){
-                    font-family: $work-sans;
+                &:nth-child(3) {
                     font-size: 86px;
                     color: $yellow;
-                } 
+                    font-style: normal;
+                    font-weight: 800;
+                }
                 &:nth-child(4) {
-                    font-family: $work-sans;
                     font-size: 20px;
                     color: $white;
-                    margin-top: 73px;
+                    margin-top: 50px;
                 }
+            }
+            &::before {
+                background-color: #fec303;
+                content: '';
+                display: block;
+                width: 73px;
+                height: 6px;
+                margin: 33px 0 0 -72px;
+                -moz-transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -o-transform: rotate(90deg);
             }
         }
     }

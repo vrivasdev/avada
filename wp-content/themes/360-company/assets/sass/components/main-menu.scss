@@ -1,0 +1,19 @@
+.main-menu {
+    .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button) {
+        background-color: $gray2;
+        &:hover {
+            background-color: $gray2;
+            span {
+                color: $yellow;
+            }
+        }
+        span {
+            color: $white;
+            font-family: $work-sans;
+            font-weight: 600;
+        }
+    }
+    .sub-menu {
+        z-index: 5;
+    }
+}

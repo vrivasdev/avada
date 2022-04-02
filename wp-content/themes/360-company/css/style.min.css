@@ -1,8 +1,14 @@
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button){background-color:#3d3d3d}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button):hover{background-color:#3d3d3d}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button):hover span{color:#fec303}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button) span{color:#fff;font-family:"WORK SANS";font-weight:600}
+.main-menu .sub-menu{z-index:5}
 .home-company-container .slide-content-left{margin-left:100px}
-.home-hero-container--text{position:absolute;top:29%;z-index:2;right:13%}
-.home-hero-container--text p{margin-top:0;margin-bottom:0}
+.home-hero-container--text{position:absolute;top:18%;z-index:2;right:13%;border-left:2px solid #fec303;padding-left:40px}
+.home-hero-container--text p{margin-top:0;margin-bottom:0;font-family:"WORK SANS"}
 .home-hero-container--text p:nth-child(1){font-family:"Roboto";font-size:16px;color:#fec303;margin-bottom:39px}
-.home-hero-container--text p:nth-child(2){font-size:60px;color:#fff}
-.home-hero-container--text p:nth-child(2),.home-hero-container--text p:nth-child(3){font-family:"WORK SANS";font-size:86px;color:#fec303}
-.home-hero-container--text p:nth-child(4){font-family:"WORK SANS";font-size:20px;color:#fff;margin-top:73px}
+.home-hero-container--text p:nth-child(2){font-size:60px;color:#fff;font-weight:300}
+.home-hero-container--text p:nth-child(3){font-size:86px;color:#fec303;font-style:normal;font-weight:800}
+.home-hero-container--text p:nth-child(4){font-size:20px;color:#fff;margin-top:50px}
+.home-hero-container--text::before{background-color:#fec303;content:"";display:block;width:73px;height:6px;margin:33px 0 0 -72px;-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg)}
 .home-team-container--picture:hover{opacity:.5}

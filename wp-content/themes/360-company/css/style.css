@@ -2,19 +2,40 @@
 * Feel free to change these breakpoints bellow to fit your project design
 * If you are using a theme, make sure to match same breakpoints from your theme setup
 */
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu) > li:not(.fusion-menu-item-button) {
+  background-color: rgb(61, 61, 61);
+}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu) > li:not(.fusion-menu-item-button):hover {
+  background-color: rgb(61, 61, 61);
+}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu) > li:not(.fusion-menu-item-button):hover span {
+  color: #fec303;
+}
+.main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu) > li:not(.fusion-menu-item-button) span {
+  color: #ffffff;
+  font-family: "WORK SANS";
+  font-weight: 600;
+}
+.main-menu .sub-menu {
+  z-index: 5;
+}
+
 .home-company-container .slide-content-left {
   margin-left: 100px;
 }
 
 .home-hero-container--text {
   position: absolute;
-  top: 29%;
+  top: 18%;
   z-index: 2;
   right: 13%;
+  border-left: 2px solid #fec303;
+  padding-left: 40px;
 }
 .home-hero-container--text p {
   margin-top: 0px;
   margin-bottom: 0px;
+  font-family: "WORK SANS";
 }
 .home-hero-container--text p:nth-child(1) {
   font-family: "Roboto";
@@ -25,22 +46,34 @@
 .home-hero-container--text p:nth-child(2) {
   font-size: 60px;
   color: #ffffff;
+  font-weight: 300;
 }
-.home-hero-container--text p:nth-child(2), .home-hero-container--text p:nth-child(3) {
-  font-family: "WORK SANS";
+.home-hero-container--text p:nth-child(3) {
   font-size: 86px;
   color: #fec303;
+  font-style: normal;
+  font-weight: 800;
 }
 .home-hero-container--text p:nth-child(4) {
-  font-family: "WORK SANS";
   font-size: 20px;
   color: #ffffff;
-  margin-top: 73px;
+  margin-top: 50px;
+}
+.home-hero-container--text::before {
+  background-color: #fec303;
+  content: "";
+  display: block;
+  width: 73px;
+  height: 6px;
+  margin: 33px 0 0 -72px;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 .home-team-container--picture:hover {
   opacity: 0.5;
 }
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9icmVha3BvaW50cy5zY3NzIiwicGFnZXMvaG9tZS9jb21wYW55LnNjc3MiLCJwYWdlcy9ob21lL2hlcm8uc2NzcyIsImdsb2JhbC90eXBvZ3JhcGh5LnNjc3MiLCJnbG9iYWwvY29sb3JzLnNjc3MiLCJwYWdlcy9ob21lL3RlYW0uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQ0VRO0VBQ0k7OztBQ0RKO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBOztBQUNBO0VBQ0ksYUNYWDtFRFlXO0VBQ0EsT0VYWDtFRllXOztBQUVKO0VBQ0k7RUFDQSxPRWxCWjs7QUZvQlE7RUFFSSxhQ3JCUjtFRHNCUTtFQUNBLE9FdEJYOztBRndCTztFQUNJLGFDMUJSO0VEMkJRO0VBQ0EsT0U3Qlo7RUY4Qlk7OztBRzVCWjtFQUNJIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9icmVha3BvaW50cy5zY3NzIiwiY29tcG9uZW50cy9tYWluLW1lbnUuc2NzcyIsImdsb2JhbC9jb2xvcnMuc2NzcyIsImdsb2JhbC90eXBvZ3JhcGh5LnNjc3MiLCJwYWdlcy9ob21lL2NvbXBhbnkuc2NzcyIsInBhZ2VzL2hvbWUvaGVyby5zY3NzIiwicGFnZXMvaG9tZS90ZWFtLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUNDSTtFQUNJOztBQUNBO0VBQ0ksa0JDRko7O0FER0k7RUFDSSxPQ0hQOztBRE1EO0VBQ0ksT0NWSjtFRFdJLGFFVkE7RUZXQTs7QUFHUjtFQUNJOzs7QUdkQTtFQUNJOzs7QUNESjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNJO0VBQ0E7RUFDQSxhRlhKOztBRVlJO0VBQ0ksYUZkWDtFRWVXO0VBQ0EsT0hiWDtFR2NXOztBQUVKO0VBQ0k7RUFDQSxPSHJCWjtFR3NCWTs7QUFFSjtFQUNJO0VBQ0EsT0h2Qlg7RUd3Qlc7RUFDQTs7QUFFSjtFQUNJO0VBQ0EsT0hoQ1o7RUdpQ1k7O0FBR1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQzNDUjtFQUNJIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
 
 /*# sourceMappingURL=style.css.map */
