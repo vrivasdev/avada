@@ -1,9 +1,16 @@
+.main-button{border-radius:1px !important}
+.main-button span{color:#20232a !important;font-size:16px;font-weight:700;font-family:"Montserrat"}
 .main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button){background-color:#3d3d3d}
 .main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button):hover{background-color:#3d3d3d}
 .main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button):hover span{color:#fec303}
 .main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu)>li:not(.fusion-menu-item-button) span{color:#fff;font-family:"WORK SANS";font-weight:600}
 .main-menu .sub-menu{z-index:5}
-.home-company-container .slide-content-left{margin-left:100px}
+.home-company-container--slider .slide-content-left{margin-left:100px}
+.home-company-container--slider .slide-content{border-left:2px solid #fec303;padding-left:29px;padding-top:1px}
+.home-company-container--slider .slide-content::before{background-color:#fec303;content:"";display:block;width:73px;height:6px;margin:33px 0 0 -72px;-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);-o-transform:rotate(90deg)}
+.home-company-container--slider .title-heading-left{font-family:"WORK SANS" !important;font-weight:300 !important}
+.home-company-container--slider p{font-size:20px;font-family:"Roboto"}
+.home-company-container--slider--button{color:#20232a}
 .home-hero-container--text{position:absolute;top:18%;z-index:2;right:13%;border-left:2px solid #fec303;padding-left:40px}
 .home-hero-container--text p{margin-top:0;margin-bottom:0;font-family:"WORK SANS"}
 .home-hero-container--text p:nth-child(1){font-family:"Roboto";font-size:16px;color:#fec303;margin-bottom:39px}

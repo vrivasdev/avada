@@ -2,6 +2,34 @@
 * Feel free to change these breakpoints bellow to fit your project design
 * If you are using a theme, make sure to match same breakpoints from your theme setup
 */
+.main-button {
+  border-radius: 1px !important;
+  /*TODO: Add styling to inner button*/
+  /* &::before {
+       display: block !important;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       z-index: -2;
+   }
+   &::after {
+       line-height: 1.7em;
+       font-size: 16px !important;
+       opacity: 1;
+       margin-left: 0;
+       left: 0.15em;
+       display: inline-block;
+   }*/
+}
+.main-button span {
+  color: #20232a !important;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+
 .main-menu .fusion-menu-element-wrapper .fusion-menu-element-list ul:not(.fusion-megamenu) > li:not(.fusion-menu-item-button) {
   background-color: rgb(61, 61, 61);
 }
@@ -20,8 +48,35 @@
   z-index: 5;
 }
 
-.home-company-container .slide-content-left {
+.home-company-container--slider .slide-content-left {
   margin-left: 100px;
+}
+.home-company-container--slider .slide-content {
+  border-left: 2px solid #fec303;
+  padding-left: 29px;
+  padding-top: 1px;
+}
+.home-company-container--slider .slide-content::before {
+  background-color: #fec303;
+  content: "";
+  display: block;
+  width: 73px;
+  height: 6px;
+  margin: 33px 0 0 -72px;
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.home-company-container--slider .title-heading-left {
+  font-family: "WORK SANS" !important;
+  font-weight: 300 !important;
+}
+.home-company-container--slider p {
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.home-company-container--slider--button {
+  color: #20232a;
 }
 
 .home-hero-container--text {
@@ -74,6 +129,6 @@
 .home-team-container--picture:hover {
   opacity: 0.5;
 }
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9icmVha3BvaW50cy5zY3NzIiwiY29tcG9uZW50cy9tYWluLW1lbnUuc2NzcyIsImdsb2JhbC9jb2xvcnMuc2NzcyIsImdsb2JhbC90eXBvZ3JhcGh5LnNjc3MiLCJwYWdlcy9ob21lL2NvbXBhbnkuc2NzcyIsInBhZ2VzL2hvbWUvaGVyby5zY3NzIiwicGFnZXMvaG9tZS90ZWFtLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUNDSTtFQUNJOztBQUNBO0VBQ0ksa0JDRko7O0FER0k7RUFDSSxPQ0hQOztBRE1EO0VBQ0ksT0NWSjtFRFdJLGFFVkE7RUZXQTs7QUFHUjtFQUNJOzs7QUdkQTtFQUNJOzs7QUNESjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNJO0VBQ0E7RUFDQSxhRlhKOztBRVlJO0VBQ0ksYUZkWDtFRWVXO0VBQ0EsT0hiWDtFR2NXOztBQUVKO0VBQ0k7RUFDQSxPSHJCWjtFR3NCWTs7QUFFSjtFQUNJO0VBQ0EsT0h2Qlg7RUd3Qlc7RUFDQTs7QUFFSjtFQUNJO0VBQ0EsT0hoQ1o7RUdpQ1k7O0FBR1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQzNDUjtFQUNJIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9icmVha3BvaW50cy5zY3NzIiwiY29tcG9uZW50cy9tYWluLWJ1dHRvbi5zY3NzIiwiZ2xvYmFsL3R5cG9ncmFwaHkuc2NzcyIsImNvbXBvbmVudHMvbWFpbi1tZW51LnNjc3MiLCJnbG9iYWwvY29sb3JzLnNjc3MiLCJwYWdlcy9ob21lL2NvbXBhbnkuc2NzcyIsInBhZ2VzL2hvbWUvaGVyby5zY3NzIiwicGFnZXMvaG9tZS90ZWFtLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUNBQTtFQUNJO0FBQ0E7QUFDRDtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBOztBQWlCQztFQUNJO0VBQ0E7RUFDQTtFQUNBLGFDckJLOzs7QUNGVDtFQUNJOztBQUNBO0VBQ0ksa0JDRko7O0FER0k7RUFDSSxPQ0ZQOztBREtEO0VBQ0ksT0NWSjtFRFdJLGFEVkE7RUNXQTs7QUFHUjtFQUNJOzs7QUViSTtFQUNJOztBQUVKO0VBQ0k7RUFDQTtFQUNBOztBQUNBO0VBQ0ksa0JEUFg7RUNRVztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUdSO0VBQ0k7RUFDQTs7QUFFSjtFQUNJO0VBQ0EsYUg1QlA7O0FHOEJHO0VBQ0ksT0QxQlA7OztBRUhEO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0VBQ0k7RUFDQTtFQUNBLGFKWEo7O0FJWUk7RUFDSSxhSmRYO0VJZVc7RUFDQSxPRlpYO0VFYVc7O0FBRUo7RUFDSTtFQUNBLE9GckJaO0VFc0JZOztBQUVKO0VBQ0k7RUFDQSxPRnRCWDtFRXVCVztFQUNBOztBQUVKO0VBQ0k7RUFDQSxPRmhDWjtFRWlDWTs7QUFHUjtFQUNJLGtCRmpDUDtFRWtDTztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOzs7QUMzQ1I7RUFDSSIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
 
 /*# sourceMappingURL=style.css.map */

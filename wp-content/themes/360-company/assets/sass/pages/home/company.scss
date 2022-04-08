@@ -1,7 +1,36 @@
 .home {
     &-company-container {
-        .slide-content-left {
-            margin-left: 100px;
+        &--slider {
+            .slide-content-left {
+                margin-left: 100px;
+            }
+            .slide-content {
+                border-left: 2px solid $yellow;
+                padding-left: 29px;
+                padding-top: 1px;
+                &::before {
+                    background-color: $yellow;
+                    content: '';
+                    display: block;
+                    width: 73px;
+                    height: 6px;
+                    margin: 33px 0 0 -72px;
+                    -moz-transform: rotate(90deg);
+                    -webkit-transform: rotate(90deg);
+                    -o-transform: rotate(90deg);
+                }
+            }
+            .title-heading-left {
+                font-family: $work-sans !important;
+                font-weight: 300 !important;
+            }
+            p {
+                font-size: 20px;
+                font-family: $roboto;
+            }
+            &--button {
+                color: $black1;
+            }
         }
     }
 }
